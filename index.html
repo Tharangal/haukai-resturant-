@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Haukai Restaurant - Best foods in Bay of Plenty</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/64f15a8ae0.css" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <!-- topbar start -->
+
+    <div class="topbar" id="home">
+      <div class="topbar-cont">
+        <p>Open hours: Monday - Sunday 8:00AM - 9:00PM</p>
+      </div>
+      <div class="topbar-cont">
+        <p>
+          <marquee behavior="" direction="left">
+            <span> Today's Special Menu : </span> New Zealand lamb coated in a
+            kawakawa crumb, served with Dijon-mustard-glazed carrots, roasted
+            butternut squash and mushroom jus.
+          </marquee>
+        </p>
+      </div>
+      <div class="topbar-cont1">
+        <p>
+          Connect with us |
+          <span>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i
+          ></span>
+        </p>
+      </div>
+    </div>
+
+    <!-- topbar end -->
+
+    <!-- start nav section -->
+
+    <header class="sticky-header">
+      <nav class="main-nav">
+        <div class="nav-cont-logo">
+          <!-- <h5>The Haukai Restaurant</h5> -->
+          <!-- <img src="/img/HAUKAI LOGO.png" class="logo" alt=""> -->
+          <img src="img/HAUKAI LOGO.png" class="logo" alt="Resturant Logo" />
+        </div>
+        <div class="nav-cont-menu">
+          <ul class="nav-ul">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="ourmenu.html">Our Menu</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+            <li>
+              <a href="#booking" type="button" id="book-a-table"
+                >Book-A-Table</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- end nav section -->
+
+    <!-- start hero section -->
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>The Haukai</h1>
+        <h2>Restaurant</h2>
+        <h3>nothing brings people together like good food</h3>
+      </div>
+    </div>
+
+    <!-- end hero section -->
+
+    <!-- start about us section -->
+    <div class="main">
+      <div id="aboutus">
+        <div class="aboutus-sec1">
+          <h3>About Us</h3>
+          <p>
+            The Haukai is a family owned and operated Restaurant offering a
+            combination of fresh ingredients and authentic New Zealand cooking.
+            We will make sure you are served the most authentic and fresh New
+            Zealand dishes, while offering the best customer service. Our
+            kitchen is committed to providing our guests with the best New
+            Zealand Cuisine.
+          </p>
+        </div>
+        <div class="aboutus-sec2"></div>
+      </div>
+
+      <div id="booking">
+        <h5>Book-A-Table</h5>
+        <p>We are happy to serve you at your convenient time</p>
+        <div>
+          <form action="submit" method="post">
+            <div class="booking-image"></div>
+
+            <div class="book-f1">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" /><br />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" />
+
+              <label for="numberofpeople">Number of people:</label>
+              <input type="number" id="numberofpeople" name="numberofpeople" />
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea><br />
+            </div>
+            <div class="book-f1">
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date" /><br />
+              <label for="time">Time:</label>
+              <input type="time" id="time" name="time" /><br />
+              <input type="button" class="book-form-button" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div id="contact-section">
+        <h6>Get In Touch</h6>
+        <p>We value your ideas</p>
+        <div class="contact-form">
+          <div class="contact-message">
+            <form action="submit" method="post">
+              <label class="con-lab"
+                >Send us your message & we will get back to you asap</label
+              >
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" /><br />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" /><br />
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea><br />
+
+              <input type="button" class="form-button" value="Submit" />
+            </form>
+          </div>
+
+          <div class="contact-address">
+            <h6>Where We Are</h6>
+
+            <div class="contact-map">
+              <iframe
+                class="map"
+                src="https://maps.google.com/maps?q=1%20island%20street,%20kerikeri,%20bay%20of%20island&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="500"
+                height="350"
+                style="border: 8px solid rgb(109, 109, 109);"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-sec">
+        <img src="img/HAUKAI LOGO.png" class="logo" alt="Haukai_Logo" />
+      </div>
+      <div class="footer-sec">
+        <h6>1 Island Street Kerikeri, Bay of Islands, 09 401 4019</h6>
+        <h6>+64 22 167 5127</h6>
+      </div>
+      <div class="footer-sec">
+        <a href="#">About Us</a>
+        <a href="#">Our Menu</a>
+        <a href="#">Book A Table</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="footer-sec">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+
+    <div class="footer-credits">
+      <div class="footer-credits-sec">
+        <p>
+          <i class="fa-regular fa-copyright"></i> 2023 All Rights Reserved | The
+          Huakai Restaurant
+        </p>
+      </div>
+      <div class="footer-credits-sec"></div>
+
+      <p><span> Designed by </span> Tharanga Liyanage</p>
+    </div>
+  </body>
+</html>
